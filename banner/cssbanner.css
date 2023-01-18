@@ -1,0 +1,25 @@
+    .demo-inner-content h1 {
+            font-weight: 900;
+        }
+        #demo-1 {
+            position: relative; /* can either be relative, absolute or fixed. If position is not set (i.e. static), it would be set to "relative" by script */
+            overflow: hidden; /* to bound the empty top space created by inner element's top margin */
+            width: 100%;
+            min-height: 700px;
+            background-color: #999;
+        }
+        .demo-inner-content {
+            position: relative; /* if position is not set, the script will set it to 'relative'. */
+            z-index: 2; /* if z-index is not set, the script will set it to '2'. */
+            margin: 180px auto;
+            /*padding: 40px;*/
+            max-width: 600px;
+            color: #fff;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .demo-inner-content h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+    

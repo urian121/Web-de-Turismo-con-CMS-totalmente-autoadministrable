@@ -1,0 +1,114 @@
+.listWrapper {
+ background: white;
+ width: 100%;
+}
+ol.numberedList {
+ display: inline-block;
+ list-style-type: none;
+}
+ol.numberedList li {
+ margin-bottom: 1.75em;
+ padding-left: 45px;
+ position: relative;
+}
+ol.numberedList li:nth-child(1):before {
+ content: "1";
+ border: 2px solid #ff663b;
+ color: #ff663b;
+ display: inline-block;
+ width: 25px;
+ height: 25px;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ border-radius: 50%;
+ margin-right: 15px;
+ text-align: center;
+ line-height: 22px;
+ font-weight: 700;
+ font-size: .9em;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+}
+ol.numberedList li:nth-child(2):before {
+ content: "2";
+ border: 2px solid #ff663b;
+ color: #ff663b;
+ display: inline-block;
+ width: 25px;
+ height: 25px;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ border-radius: 50%;
+ margin-right: 15px;
+ text-align: center;
+ line-height: 22px;
+ font-weight: 700;
+ font-size: .9em;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+}
+ol.numberedList li:nth-child(3):before {
+ content: "3";
+ border: 2px solid #ff663b;
+ color: #ff663b;
+ display: inline-block;
+ width: 25px;
+ height: 25px;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ border-radius: 50%;
+ margin-right: 15px;
+ text-align: center;
+ line-height: 22px;
+ font-weight: 700;
+ font-size: .9em;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+}
+ol.numberedList li:nth-child(4):before {
+ content: "4";
+ border: 2px solid #ff663b;
+ color: #ff663b;
+ display: inline-block;
+ width: 25px;
+ height: 25px;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ border-radius: 50%;
+ margin-right: 15px;
+ text-align: center;
+ line-height: 22px;
+ font-weight: 700;
+ font-size: .9em;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+}
+ol.numberedList li:nth-child(5):before {
+ content: "5";
+ border: 2px solid #ff663b;
+ color: #ff663b;
+ display: inline-block;
+ width: 25px;
+ height: 25px;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ border-radius: 50%;
+ margin-right: 15px;
+ text-align: center;
+ line-height: 22px;
+ font-weight: 700;
+ font-size: .9em;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+}
+ol.numberedList li.oneLiner:before {
+ top: -6px;
+}
+ol li strong{
+color: #e54c2a;
+}

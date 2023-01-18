@@ -1,0 +1,97 @@
+
+
+/*pa cambiar el style del scroll*/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    border:1px solid #666666;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #666666;
+    /*background: rgba(0,0,0,.1);*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
+}
+
+.btnEnviar{
+	width: 100%;
+	border: none;
+	padding: 10px 20px;
+	font-weight: 500;
+	background: #333;
+}
+.btnEnviar:hover{
+	background: #444;
+}
+
+#imgPerfilExperiencias{
+    width: 100%; 
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    margin-bottom: 10px;
+}
+#perfilClientes{
+    text-align: center;
+    font-size: 13px;
+    color: #888;
+}
+
+
+.video-responsive {
+margin: 0 auto;
+text-align: center;
+position: relative;
+/*padding-bottom: 56.25%; /* 16/9 ratio */
+/*height: 0;*/
+overflow: hidden;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+top: 0;
+left: 0;
+width: 80%;
+height: 400px;
+}
+
+
+.contFlebox{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 30px;
+}
+
+#elementoFlexbox{
+    background: #f7f7f7;
+    margin: 10px 15px;
+   /* padding: 0px 40px;*/
+    color: #333;
+    font-weight: 600;
+    line-height: 1.30em;
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+#fleboxUl{
+background-color: #f4524d;
+padding: 10px 0px;
+color: #fff;
+display: flex; flex-wrap: wrap;
+justify-content: center;  
+}
