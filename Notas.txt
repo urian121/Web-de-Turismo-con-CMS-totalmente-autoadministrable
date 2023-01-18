@@ -1,0 +1,1 @@
+Solo deben crear una base de datos, agregar las tablas que estan en la carpeta BD y configurar la conexion que esta en cms/config.php
